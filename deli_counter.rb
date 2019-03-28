@@ -18,7 +18,7 @@ end
 def now_serving(katz_deli, other_deli)
   if katz_deli.empty?
   puts "There is nobody waiting to be served!"
-  else 
+  else
   now_serving.using_shift(other_deli)
 end
 end
